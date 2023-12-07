@@ -1,0 +1,9 @@
+{
+  "name": "timefiles",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/hades/timeflies/",
+  "description": "Makes the game day pass very quickly, which can be useful for testing.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
