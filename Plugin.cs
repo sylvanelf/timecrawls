@@ -35,7 +35,7 @@ namespace timeflies
         public static void Prefix(ref TimeOfDay __instance)
         {
             Plugin.Log.LogInfo($"old globalTimeSpeedMultiplier was {__instance.globalTimeSpeedMultiplier}");
-            __instance.globalTimeSpeedMultiplier = 15f;
+            __instance.globalTimeSpeedMultiplier = 0.5f;
         }
     }
 }
